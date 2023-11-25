@@ -1,0 +1,48 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/AGM_photo.jpeg"
+  slider_item:
+    # slider item loop
+    - title : "\"All The Best\" -- Message from Dr. B.N. Jajoo"
+      content : "I am very glad to learn that the batch of 1985-89 students of Govt. College of Engineering Amravati has founded a registered society named 'Group of Engineers Alumni Society 89' "
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Read more"
+        link : "blog/message_from_dr_jajoo/"
+
+    # slider item loop
+    - title : "Welcome message from Dr. Sanjay Pohekar"
+      content : "I am delighted to inform you that the batch of 1989 is launching the much awaited web-site of “89 Foundation” on the occasion of its second Annual General Meeting at Tuticorin, TN."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Read more"
+        link : "blog/welcometofoundation89/"
+
+    # slider item loop
+    - title : "Message from Mr. Prashant Joshi"
+      content : "Hey There, How's it going, awesome alumni foundation members? I am sure, all of you are enjoying the rich heritage of Tamilnadu while participating in the second annual meeting of the foundation. I fondly cherish the memories of my alma mater, \"Government College of Engineering Amravati\"."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Read more"
+        link : "blog/message_from_prashant_joshi/"
+
+    # slider item loop
+    - title : "Message from Prof M J Deodhar"
+      content : "I am very happy to know that 1989  COEA batch students have formed foundation for welfare of society , alumni and students . I wish them a very success in this endeavour."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Read more"
+        link : "blog/message_from_prof_mj_deodhar/"

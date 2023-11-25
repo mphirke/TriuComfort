@@ -3,5 +3,32 @@ languageCode = 'en-us'
 title = 'Netlify + Hugo Quickstart'
 theme = 'aviato'
 
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/css/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themefisher-font/style.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick-theme.css"
+[[params.plugins.css]]
+link = "css/style.css"
+
 [params]
 PhoneNumber = '+91 9689904877'
+
+  [params.Slider]
+    [params.Slider.One]
+      Description = "Elegance in every profession"
+    
+    [params.Slider.Two]
+      Description = "Passion fuels our fasion"
+
+    [params.Slider.Three]
+      Description = "Refined Comfort for you"
+
+    [params.Slider.Four]
+      Description = "Unleash your unique style"
