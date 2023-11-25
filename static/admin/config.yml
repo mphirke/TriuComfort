@@ -1,5 +1,7 @@
 backend:
   name: git-gateway
+  repo: mphirke/TriuComfort
+  branch: main
 media_folder: static/images
 public_folder: static/images/blog
 
