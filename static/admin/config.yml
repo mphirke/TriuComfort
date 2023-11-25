@@ -1,0 +1,52 @@
+backend:
+  name: git-gateway
+media_folder: static/images
+public_folder: static/images/blog
+
+collections:
+
+  - name: 'Products'
+    label: 'Products'
+    folder: 'content/products'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', required: true}
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', required: true}
+      - { label: 'Description', name: 'description', widget: 'string' , required : true}
+      - { label: "Featured Image", name: "bg_image", widget: "image", required: false}
+      - { label: 'Body', name: 'body', widget: 'markdown', required : true}
+      - { label : "post", name: 'type', widget: 'string', default: "notice", hidden: true}
+
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'my-project/content/english/blog'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', required: true}
+      - { label: 'Author', name: 'author', widget: 'string', required: true}
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', required: true}
+      - { label: 'Description', name: 'description', widget: 'string' , required : true}
+      - { label: "Featured Image", name: "bg_image", widget: "image", required: false}
+      - { label: 'Body', name: 'body', widget: 'markdown', required : true}
+      - { label : "post", name: 'type', widget: 'string', default: "post", hidden: true}
+      
+  - name: 'notice'
+    label: 'Notices'
+    folder: 'my-project/content/english/notice'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string', required: true}
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', required: true}
+      - { label: 'Description', name: 'description', widget: 'string' , required : true}
+      - { label: "Featured Image", name: "bg_image", widget: "image", required: false}
+      - { label: 'Body', name: 'body', widget: 'markdown', required : true}
+      - { label : "post", name: 'type', widget: 'string', default: "notice", hidden: true}

@@ -13,7 +13,7 @@
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>TriuComfort | E-commerce template</title>
+  <title> {{ .Title }} </title>
 
   <!-- Mobile Specific Metas
   ================================================== -->
@@ -464,7 +464,7 @@
 				  <div class="card-body">
 					<h5 class="card-title">{{ .Params.title }}</h5>
 					<p class="card-text">{{ .Params.description }}</p>
-					<!-- <a href="{{ .Permalink }}" class="btn btn-primary">View Product</a> -->
+					<a href="{{ .Permalink }}" class="btn btn-main btn-medium btn-round btn-icon">View Product</a>
 					<a href="{{ .Params.amazon_link }}" class="btn btn-main btn-medium btn-round btn-icon"><i class="tf-ion-ios-cart-outline"></i>Round Button</a>
 				  </div>
 				</div>

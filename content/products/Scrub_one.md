@@ -11,8 +11,16 @@ draft: false
 description : ""
 # Event image
 image: "images/shop/products/single-product.jpg"
+slider_image:
+    1 : "images/shop/products/single-product.jpg"
+    2 : "images/shop/single-products/product-2.jpg"
+    3 : "images/shop/single-products/product-3.jpg"
+    4 : "images/shop/single-products/product-4.jpg"
+    5 : "images/shop/single-products/product-5.jpg"
+    6 : "images/shop/single-products/product-6.jpg"
 
 amazon_link : "https://www.amazon.in/ELA-Tapes-Zebra-Marking-meters/dp/B074WCDTSQ?pd_rd_w=IWDoU&content-id=amzn1.sym.b2ea1fc9-434f-42e3-9c16-0a07e0eaef6c&pf_rd_p=b2ea1fc9-434f-42e3-9c16-0a07e0eaef6c&pf_rd_r=C3WAA4SA07EN96Q65A5E&pd_rd_wg=o4Dv9&pd_rd_r=c0b4c8ab-6e89-4cb3-874c-119ca285c318&pd_rd_i=B074WCDTSQ&psc=1&ref_=pd_bap_d_grid_rp_0_1_ec_t"
+
 # event speaker
 # type
 type: "Products"

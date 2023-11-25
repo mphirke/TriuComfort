@@ -17,6 +17,31 @@ link = "plugins/slick/slick-theme.css"
 [[params.plugins.css]]
 link = "css/style.css"
 
+# JS Plugins
+
+[[params.plugins.js]]
+link = "plugins/jquery/dist/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/js/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"
+[[params.plugins.js]]
+link = "plugins/ekko-lightbox/dist/ekko-lightbox.min.js"
+[[params.plugins.js]]
+link = "plugins/syo-timer/build/jquery.syotimer.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick-animation.min.js"
+[[params.plugins.js]]
+link = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Ts"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+[[params.plugins.js]]
+link = "js/script.js"
+
+
+
 [params]
 PhoneNumber = '+91 9689904877'
 

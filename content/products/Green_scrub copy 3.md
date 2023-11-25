@@ -20,17 +20,3 @@ finished: true
 rank: 1
 
 ---
-
-### Programme
-
-
-* 6.00 p.m. to 7.00 p.m. Annual General Meeting (AGM). (For Members only) 
-* 7.00 p.m. Onwards Interaction & Celebrations by families. 
-* 8.30 p.m. Onwards DINNER 
-
-### About Event
-
-The first annual general meeting of Foundation 89 was successfully conducted in Agartala, the capital city of Tripura. 
-The discussions regarding the future of the foundation were held there.
-
-We would like to thank  **Shri.Pravin Agarwal** for his contributions & support during this AGM.
