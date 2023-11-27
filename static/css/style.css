@@ -241,6 +241,17 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .section {
   padding: 0px 0;
 }
+.rounded-circle {
+ border-radius: 50% !important; 
+}
+
+.about-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .title {
   padding: 20px 0 30px;
